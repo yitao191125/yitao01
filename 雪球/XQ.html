@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./link/bootstrap-theme.min.css">
+    <!-- <script src="../js/bootstrap.js"></script> -->
+    <script src="./link/jquery.js"></script>
+    <link rel="stylesheet" href="./link/reset.css">
+    <link rel="stylesheet" href="./link/xq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./link/xq.js"></script>
+</head>
+
+<body>
+
+    <!-- 导航信息 -->
+    <div class="dht">
+        <div class="daohangtiao">
+            <ul>
+                <li style=" border-bottom:2px solid white ; padding: 8px;  margin-top: 13px; 
+            ">首页
+                </li>
+                <li class="current xlk ">精华
+
+                    <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"
+                        style="font-size: 0.1px;"></span>
+
+                    <ul class="x">
+                        <li>
+                            <a href="">今日话题</a>
+                        </li>
+                        <li>
+                            <a href="">雪球访谈</a>
+                        </li>
+                        <li>
+                            <a href="">找人</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://xueqiu.com/ask/square">问答</a>
+
+                </li>
+                <li class="xlk"> 行情
+                    <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"
+                        style="font-size: 0.1px;"></span>
+                    <ul class="y">
+                        <li>
+                            <a href="">行情中心</a>
+                        </li>
+                        <li>
+                            <a href="">筛选器</a>
+                        </li>
+                        <li>
+                            <a href="">新股上市</a>
+                        </li>
+                        <li>
+                            <a href="">买什么</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="xlk">交易
+                    <span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"
+                        style="font-size: 0.01px;"></span>
+                    <ul class="z">
+                        <li>
+                            <a href="">A股交易</a>
+                        </li>
+                        <li>
+                            <a href="">蛋卷基金</a>
+                        </li>
+                        <li>
+                            <a href="">私募中心</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+            <!-- 注册登录 -->
+            <div class="ss">
+                <input type="text" value="">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </div>
+            <div class="zd">
+                <ul>
+                    <li id="app">
+                        <a href="" class="xz">
+                            下载App
+
+                            <div class="qrcode" id="qrc">
+                                <i class=" fa fa-caret-up"></i>
+                                <span>扫一扫，下载</span>
+                                <img src="./img/ewm.png" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li id="zc">
+                        <i class=" fa fa-user-o "></i>
+                        注册/登录
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 图片 -->
+    <div class="tp-wb">
+        <div class="picture">
+            <img src="./img/xq1.png" alt="">
+            <button id="btn01">登录/注册</button>
+            <button id="btn02">下载App</button>
+        </div>
+    </div>
+
+
+
+    <!-- 中间部分 -->
+    <div class="zj">
+        <div class="zj-nb">
+            <div class="mid">
+                <div class="lef">
+                    <div class="lunbo">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active current">
+                                </li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1" class="current"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2" class="current"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="./img/xq4.png" style="height: 100px;">
+                                </div>
+                                <div class="item">
+                                    <img src="./img/xq3.png" style="height: 100px;">
+                                </div>
+                                <div class="item">
+                                    <img src="./img/xq2.png" style="height: 100px;">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 右边消息栏 -->
+                <div class="rig">
+                    <!-- 蛋卷消息 -->
+                    <div class="dj">
+                        <ul>
+                            <li>
+                                <img src="./img/dj.png" alt="">
+                                <a href="">蛋卷基金 </a>
+                                <a href="" class="fbt"> 一折起申购
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <img src="./img/AG.png" alt="">
+                                <a href="">A股开户</a>
+                                <a href="" class="fbt"> <button> <span class="fa fa-expeditedssl"></span>体验极速开户</button>
+                                    <i class="fa fa-angle-right"> </i></a>
+                            </li>
+                            <li>
+                                <img src="./img/SM.png" alt="">
+                                <a href="">私募中心</a>
+                                <a href="" class="fbt"> 新品发布季
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <img src="./img/QH.png" alt="">
+                                <a href="">期货开户</a>
+                                <a href="" class="fbt"> T+0双向杠杆交易
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 举报专区 -->
+                    <div class="jubao">
+                        <ul>
+                            <li><a href="">清朗.财经类违规信息举报专区
+                                    <i class="fa fa-angle-right"></i></li>
+                            <li><a href="">网上有害信息举报专区
+                                    <i class="fa fa-angle-right"></i></li>
+                            <li><a href="">侵害未成年人权益举报专区
+                                    <i class="fa fa-angle-right"></i></li>
+                            <li><a href="">非法证券投资咨询举报专区
+                                    <i class="fa fa-angle-right"></i></li>
+                            <li><a href="">违法（含侵权）及不良信息投诉指引
+                                    <i class="fa fa-angle-right"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- tab栏 -->
+                <div class="tab">
+                    <!-- Nav tabs -->
+                    <div class="rg"> <span> 热股榜</span>
+
+                        <a href="" class="gengduo">更多</a>
+                    </div>
+                    <!--  -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"> <a href="#home" aria-controls="全球" role="tab"
+                                data-toggle="tab">全球</a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="沪深" role="tab"
+                                data-toggle="tab">沪深</a>
+                        </li>
+                        <li role="presentation"><a href="#messages" aria-controls="港股" role="tab"
+                                data-toggle="tab">港股</a>
+                        </li>
+                        <li role="presentation"><a href="#settings" aria-controls="美股" role="tab"
+                                data-toggle="tab">美股</a>
+                        </li>
+                    </ul>
+                    <!-- 最热 -->
+                    <div class="zuire">
+                        <a href="" class="yixiaos">1小时内最热</a>
+                        <i>/</i>
+                        <a href="">24小时最热</a>
+                    </div>
+                    <!-- Tab panes -->
+                    <div class="tab-content ">
+                        <div role="tabpanel" class="tab-pane active xiaoxi" id="home">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="">沃森生物</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>2652</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><a href="">北京科锐</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>1545</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><a href="">中远海控</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>1428</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><a href="">*ST澄星</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>1251</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><a href="">复星医药</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>1198</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><a href="">北方稀土</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>2652</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td><a href="">中国平安</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>1054</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td><a href="">中国中免</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>706</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div role="tabpanel" class="tab-pane xiaoxi" id="profile">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="">沃森生物</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>2807</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><a href="">北京科锐</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>2077</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><a href="">中远海控</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>1668</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><a href="">*ST澄星</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>1376</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><a href="">复星医药</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>1234</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><a href="">北方稀土</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>1212</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td><a href="">中国平安</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>1083</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td><a href="">恒瑞医药</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>760</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div role="tabpanel" class="tab-pane xiaoxi" id="messages">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="">腾讯控股</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>601</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><a href="">小米集团</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>393</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><a href="">中国恒大</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>262</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><a href="">美团-W</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>225</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><a href="">融创中国</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>208</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><a href="">鑫能源</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>196</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td><a href=""> 思摩国际</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>187</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td><a href=""> 中国飞鹤</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>162</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div role="tabpanel" class="tab-pane xiaoxi" id="settings">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="">拼多多</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>544</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><a href="">特斯拉</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>298</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><a href=""> 阿里巴巴</a> </td>
+                                        <td> <i class="fa fa-arrow-down "></i></td>
+                                        <td>245</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><a href=""> Moderna</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>204</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><a href=""> 雾芯科技</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>196</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><a href=""> fuboTV</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>184</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td><a href="">瑞辉</a> </td>
+                                        <td> <i class="fa fa-arrow-up"></i></td>
+                                        <td>162</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td><a href="">京东</a> </td>
+                                        <td> <i class="fa fa-arrow-down"></i></td>
+                                        <td>126</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 雪球热帖 -->
+            <div class="retie">
+                <div class="xqrt">
+                    <ul>
+                        <li><a href="">雪球热帖</a></li>
+                        <li><a href="">7×24</a></li>
+                    </ul>
+                </div>
+                <div class="pinglun">
+                    <div class="item">
+                        <h4 class="hbt" style="font-weight: bold; position: absolute;
+                top: 30px;">长线投资</h4>
+                        <p style="position: absolute;top: 70px;">【为何要做长线投资，我们有多少个10年20年？】很多朋友都说要做长线投资，但我们有几个10年和20年呢？
+                            我要说不管你有做什么样的投资，
+                            时间对我们来说都是一样的，你们看似好像十分珍惜这10年20年，但有多少急切赚快钱的人，
+                            不做价值投资，但是依然庸庸碌碌过了10年20年。10年20年对每个人都是公...</p>
+                        <div class="zuozhe" style="position: absolute;top: 160px;">
+                            <a href="">厚恩投资张严坤</a>
+                            <span>11-29</span>
+                            <i>10:02</i>
+                        </div>
+                    </div>
+                    <div class="item" style="display: none;">
+                        <div class="riqi">
+                            <span>01</span>
+                            <h4>十二月</h4>
+                        </div>
+
+                        <div class="zuixinnews">
+                            <ul>
+                                <li> <span>8:30</span>
+                                    【内蒙古通辽市科尔沁区发现2名初筛阳性人员】从内蒙古通辽市新型冠状病毒感染肺炎防控工作指挥部获悉，
+                                    2021年11月28日21时48分，通辽市科尔沁区发现2名初筛阳性人员，29日1时09分，市疾控中心复核阳性。（央视新闻）</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+
+</html>
